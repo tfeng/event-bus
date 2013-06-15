@@ -1,0 +1,30 @@
+{
+  "name": "event-bus",
+  "id": "event-bus",
+  "version": "0.1.0",
+  "description": "An event bus built on top of events library of Node.JS",
+  "keywords": [
+    "bus",
+    "event",
+    "schedule",
+    "signal"
+  ],
+  "author": "Thomas Feng <tfeng@berkeley.edu>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfeng/event-bus.git",
+    "web": "https://github.com/tfeng/event-bus"
+  },
+  "bugs": {
+    "url": "https://github.com/tfeng/event-bus/issues"
+  },
+  "main": "./lib/event-bus.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+  }
+}
