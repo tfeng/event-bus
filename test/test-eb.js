@@ -9,7 +9,7 @@ describe("TestParameter", function() {
         assert.equal(p, "Hello");
         done();
       });
-      eb.event("msg")("Hello");
+      eb.emit("msg", "Hello");
     });
   });
 
@@ -22,7 +22,7 @@ describe("TestParameter", function() {
         assert.equal(c, 3);
         done();
       });
-      eb.event("msg")(1, 2, 3);
+      eb.emit("msg", 1, 2, 3);
     });
   });
 
@@ -46,7 +46,7 @@ describe("TestParameter", function() {
         assert.equal(cnt++, 2);
         done();
       });
-      eb.event("msg")(1, 2, 3);
+      eb.emit("msg", 1, 2, 3);
     });
   });
 
@@ -63,7 +63,7 @@ describe("TestParameter", function() {
         assert(true, "This should be called.");
         done();
       });
-      eb.event("msg")();
+      eb.emit("msg");
     });
   });
 });
