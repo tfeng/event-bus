@@ -1,7 +1,7 @@
 {
   "name": "event-bus",
   "id": "event-bus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An event bus built on top of events library of Node.JS",
   "keywords": [
     "bus",
@@ -26,5 +26,6 @@
     }
   ],
   "dependencies": {
+    "collection": "latest"
   }
 }

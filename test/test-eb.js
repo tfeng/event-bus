@@ -1,3 +1,5 @@
+"use strict";
+
 var assert = require('assert'),
     EB = require("../lib/event-bus").EB;
 
